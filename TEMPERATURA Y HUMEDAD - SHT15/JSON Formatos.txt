@@ -1,0 +1,49 @@
+Link: http://www.freeformatter.com/json-formatter.html#ad-output
+
+http://jsonviewer.stack.hu/
+
+{
+	"INDOOR":{
+		"CLASE":{
+			"MARCA": "(1)",
+			"TAMANO": "(2)"
+		},
+		"TEMPERATURA":{
+			"°C": (3),
+			"°F": (4)
+		},
+		"HUMEDAD":{
+			"AMBIENTE %": (5)
+		},
+		"ILUMINACION":{
+			"TIPO": "SODIO",
+			"WATTS": 250,
+			"ESTADO": "ON"
+		},
+		"VENTILACION":{
+			"INTRACCION":{
+				"GENERAL": "ON" 
+			},
+			"EXTRACCION":{
+				"GENERAL": "ON" 
+			}
+		},
+		"RULES":{
+			"R_ILUMINACION":{
+				"TEST": 0
+			},
+			"R_VENTILACION":{
+				"TEST": 0
+			}
+		}
+	}
+}
+
+{"INDOOR":{"CLASE":{"MARCA": "(1)","TAMANO": "(2)"},"TEMPERATURA":{"°C": (3),"°F": (4)},"HUMEDAD":{"AMBIENTE %": (5)},"ILUMINACION":{"TIPO": "SODIO","WATTS": 250,"ESTADO": "ON"},"VENTILACION":{"INTRACCION":{"GENERAL": "ON"},"EXTRACCION":{"GENERAL": "ON"}},"RULES":{"R_ILUMINACION":{"TEST": 0},"R_VENTILACION":{"TEST": 0}}}}
+
+
+{"INDOOR":{"CLASE":{"MARCA": "CULTIBOX","TAMANO": "80x80"},"TEMPERATURA":{"°C": (3),"°F": (4)},"HUMEDAD":{"AMBIENTE %": (5)},"ILUMINACION":{"TIPO": "(6)","WATTS": 250,"ESTADO": "ON"},"VENTILACION":{"INTRACCION":{"GENERAL": "ON"},"EXTRACCION":{"GENERAL": "ON"}},"RULES":{"R_ILUMINACION":{"TEST": 0},"R_VENTILACION":{"TEST": 0}}}}
+
+{"INDOOR":{"CLASE":{"MARCA": "CULTIBOX","TAMANO": "80x80"},"TEMPERATURA":{"°C": (3),"°F": (4)},"HUMEDAD":{"AMBIENTE %": (5)},"ILUMINACION":{"TIPO": "(6)","WATTS": 250,"ESTADO": "ON"},"VENTILACION":{"INTRACCION":{"GENERAL": "ON"},"EXTRACCION":{"GENERAL": "ON"}},"RULES":{"R_ILUMINACION":{"TEST": 0},"R_VENTILACION":{"TEST": 0}}}}
+
+{"INDOOR":{"CLASE":{"MARCA": "CULTIBOX","TAMANO": "80x80x160"},"TEMPERATURA":{"°C": "29.56","°F": "85.28"},"HUMEDAD":{"AMBIENTE %": "37.44"},"ILUMINACION":{"TIPO": "(6)","WATTS": (7),"ESTADO": "(8)"},"VENTILACION":{"INTRACCION":{"GENERAL": "ON"},"EXTRACCION":{"GENERAL": "ON"}},"RULES":{"R_ILUMINACION":{"TEST": 0},"R_VENTILACION":{"TEST": 0}}}}
